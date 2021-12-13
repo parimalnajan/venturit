@@ -1,0 +1,65 @@
+.header-wrapper {
+    
+  display: flex;
+ 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px;
+  border: none;
+}
+
+.header-content{
+    display: flex;  
+  
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+
+
+
+
+.add-button{
+    margin: 0 16px 0 16px;
+
+    border-radius: 16px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    background-color: #3D84FF;
+    color: white;
+}
+
+.notification-icon{
+    margin: 0 16px 0 16px;
+    position: relative;
+}
+
+.badge{
+    border-radius: 50%;
+    border: none;
+    width: 12px;
+    height: 12px;
+    background-color: #3D84FF;
+    position: absolute;
+    top:50%;
+    left:80%;
+}
+
+.chat{
+    margin: 0 16px 0 16px;
+}
+
+.profile-name{
+    margin: 0 16px 0 16px;
+}
+
+.profile-arrow{
+    margin-left: 16px;
+    margin-right: 32px  ;
+}
+
+/* FBFBFD gradient F5F5FB */

@@ -1,0 +1,41 @@
+.sidebar-wrapper{
+    display: flex;
+    flex:0.035;
+    flex-shrink:0;
+    flex-direction: column;
+    align-items: center;   
+
+    min-width:50px;
+    height: auto;
+    
+    background-color:#3D84FF;
+    color:white;
+
+}
+
+.sidebar-wrapper>button{
+    border: none;
+    background-color:#3D84FF;
+    height: auto;
+    width: 100%;
+    padding:17px 0;
+}
+.sidebar-wrapper>button:hover{
+    cursor: pointer;
+    background-color: #005DFF;
+}
+.hamburger{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.hamburger>div{
+    width: 16px;
+    height: 1px;
+    background-color:#F5F5FB;
+    margin: 2px;
+    padding:0.5px;
+    
+}
+

@@ -1,0 +1,49 @@
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: URL('./Assets/Fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Nunito-SemiBold';
+  src: URL('./Assets/Fonts/Nunito-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: URL('./Assets/Fonts/Nunito-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nunito-Black';
+  src: URL('./Assets/Fonts/Nunito-Black.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Gotham-Normal';
+  src: URL('./Assets/Fonts/Gotham-Light.otf') format('OpenType');
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: URL('./Assets/Fonts/Gotham-Bold.otf') format('OpenType');
+}
+
+body {
+
+  font-family:"Nunito-SemiBold";
+  /* margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  margin: 0;
+  padding:0;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
