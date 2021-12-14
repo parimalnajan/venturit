@@ -4,13 +4,14 @@ import Dashboard  from './Dashboard'
 import Events from './Events/Events'
 
 import './Home.css'
+import Progress from './Progress/Progress'
 function Home() {
     return (
         <div>
         <Dashboard/>
         <Events/>
         <Activity/>
-        <div>asdasasd</div>
+        <Progress/>
         </div>
     )
 }

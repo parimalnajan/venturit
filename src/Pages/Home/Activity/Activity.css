@@ -1,13 +1,11 @@
 
-.activity-wrapper{
-    
+.activity-wrapper{    
     height: auto;
     width: auto;
     padding:1% 10% 1% 5%;
     background-color: #F5F5FB;
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column;   
 }
 .activity-row{
     display: flex;
@@ -18,9 +16,8 @@
     justify-content: space-between;
     margin-bottom: 16px;
 }
-.activity-border{
-  
-    height: 1px;
+.activity-border{  
+    height: 2px;
     width:80%;
     background-color:#EAEAF0;
     margin:16px;
